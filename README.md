@@ -124,6 +124,7 @@ Javascript adalah sebuah bahasa pemrograman yang digunakan developer untuk membu
 4. Javascript Assigment.
   
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(430).png?raw=true)
+
 5. Javascript Data Type. Javascript memiliki beberapa data type, yaitu:
 - string
 - number. 
