@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Percobaan Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style pada header*/
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/*navigasi style  */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* top navigasi*/
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* mengubah warna hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(38, 204, 196);
+}
+
+/* membuat colom*/
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Tampilan Wesite layout</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">Nama</a>
+  <a href="#">Berita</a>
+  <a href="#">Tentang</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Sejarah</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolores mollitia culpa fugit fugiat quis sequi veniam officia autem quia. Culpa, accusamus veritatis blanditiis numquam aperiam inventore. Modi molestiae dolore, molestias explicabo nam unde expedita exercitationem adipisci ullam ipsum veritatis!
+    </p>
+  </div>
+  
+  <div class="column middle">
+    <h2>sejarah Indonesia</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem labore quod cumque harum a distinctio quas delectus nobis. Optio, veniam id possimus fugit in, soluta ipsam sunt molestiae adipisci exercitationem officiis itaque reprehenderit placeat repellendus unde sequi! Ex, ut tenetur iure rem vero reprehenderit architecto dolor quod perspiciatis numquam eius!</p>
+  </div>
+  
+  <div class="column side">
+    <h2>Sejarah Islam</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem placeat exercitationem, illum sequi modi repudiandae, impedit dolores vero, iusto accusamus suscipit quibusdam molestias. Ad, veniam voluptate laudantium iure perspiciatis repellendus?</p>
+  </div>
+</div>
+  
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "section" counter(section) ": ";
+}
+</style>
+</head>
+<body>
+
+<h1>tahapan yang akan dilalui</h1>
+
+<h2>Sekolah Dasar</h2>
+<h2>Sekolah menengah Pertama</h2>
+<h2>Sekolah Menengah Atas</h2>
+<h2>Perguruan Tinggi</h2>
+</body>
+</html>
