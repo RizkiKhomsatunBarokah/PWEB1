@@ -26,9 +26,9 @@ HTML adalah sebuah bahasa pemrograman standar yang sering digunakan untuk membua
 - untuk meratakan tulisan kita, dapat menggunakan tag <text-align>
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(432).png?raw=true)
 12. Di dalam suatu HTML kita juga bisa mengatur teks yang akan ditampilkan sesuai dengan yang kita inginkan. 
-- untuk teks yang kita tebalkan, dapat menggunakan tag <b></b>
-- untuk menandai bahwa itu penting,kita bisa menggunakan tag <strong>
-- untuk membuat style teks yang miring,kita bisa menggunakan tag <i>
+- untuk teks yang kita tebalkan, dapat menggunakan tag b
+- untuk menandai bahwa itu penting,kita bisa menggunakan tag strong
+- untuk membuat style teks yang miring,kita bisa menggunakan tag i
 13. dalam HTML kita juga bekerja sama dengan CSS untuk dapat mempermudah dalam pembuatan web. CSS dapat ditambahkan kedalam HTML dengan menggunakan 3 cara, yaitu dengan:
 - style atribut di dalam elemen HTML (inline)
 - <style></style> di dalam <head> termasuk ke dalam (internal)
