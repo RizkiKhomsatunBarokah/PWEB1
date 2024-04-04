@@ -121,7 +121,8 @@ Javascript adalah sebuah bahasa pemrograman yang digunakan developer untuk membu
 - mengurangi angka (--).
 - eksponensial (**) menaikan operan pertama ke pangkat operan kedua. 
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(439).png?raw=true)
-4. Javascript Assigment. 
+4. Javascript Assigment.
+  
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(430).png?raw=true)
 5. Javascript Data Type. Javascript memiliki beberapa data type, yaitu:
 - string
