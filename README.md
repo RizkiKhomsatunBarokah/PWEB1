@@ -16,9 +16,7 @@ HTML adalah sebuah bahasa pemrograman standar yang sering digunakan untuk membua
 7. elemen yang berfungsi untuk mendefinisikan sebuah paragraf maka dapat menggunakan <p>
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(431).png?raw=true)
 8. kita dapat menambahkan sebuah link ke dalam bagian html dengan menggunakan tag <a>.
-contoh: <a href="https://www.w3schools.com">This is a link</a>
 9. kita dapat menambahkan gambar secara online maupun offline dengan menggunakan sebuah tag HTML <img> dengan tag <src> sebagai sumber file serta <alt> untuk menuliskan teks alternatif serta di ikuti dengan width dan height.
-contoh: <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 10. Dalam HTML kita dapat memberikan jeda baris dengan menggunakan sebuah tag yang ada, yaitu dengan menggunakan tag <br>.
 11. Kita dapat memodifikasi semua tampilan web HTML dengan menggunakan sebuah tag <style></style> dengan menggunakan tag ini kita dapat mengubah seperti background warna, warna font, ukuran teks, jenis font yang ingin kita gunakan. 
 - untuk mengubah background warna kita menggunakan tag <background-color>
@@ -56,7 +54,6 @@ CSS adalah sebuah singkatan dari Cascading Style Sheets yang mempunyai arti sebu
 - selector atribut berdasarkan atribut atau nilai-nilai atribut.
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(435).png?raw=true)
 2. Sama dengan HTML, CSS juga bisa mengubah warna font maupun warna background. 
-contoh : <h1 style="background-color:DodgerBlue;">Hello World</h1>
 3. border style pada CSS juga menentukan jenis batas yang akan ditampilkan 
 - dotted menampilkan batas titik-titik.
 - dashed menampilkan batas putus-putus.
@@ -77,11 +74,7 @@ dan masih banyak lagi jenis-jenis border dalam CSS.
 - padding berfungsi untuk menghapus area disekitar konten.
 - border adalah perbatasan yang mengelilingi padding serta konten.
 - margin berfungsi untuk membersihkan area diluar perbatasan. 
-7. Dalam CSS juga terdapat element untuk merubah atau menentukan warna teks serta background teks. contohnya yaitu :
-body {
-  background-color: lightgrey;
-  color: blue;
-}
+7. Dalam CSS juga terdapat element untuk merubah atau menentukan warna teks serta background teks.
 8. Dalam sebuah CSS kita dapat dengan mudah menambahkan sebuah icon ke dalam web sesuai yang kita inginkan. kita bisa menambahkan sebuah ikon dengan mudah ke dalam pemrograman dengan perpustakaan ikon seperti font awesome. 
 9. style tautan yang ada dalam CSS bergantung pada statusnya. beberapa macamnya yaitu :
 - a:link (untuk sebuah tautan normal yang belum dikunjungi).
@@ -101,10 +94,7 @@ body {
 - child selector (>).
 - adjacent sibling selector (+).
 - general sibling selector (~).
-14. CSS [attribute] selector digunakan untuk memilih elemen dengan atribut tertentu. contohnya:
-a[target] {
-  background-color: yellow;
-}
+14. CSS attribute selector digunakan untuk memilih elemen dengan atribut tertentu.
 15. automatich Numbering with counters dalam CSS berfungsi pada nilai variabel. nilai variabel dapat ditambah dengan menggunakan aturan Css itu sendiri. 
 - counter-riset (berfungsi untuk membuat ataupun mengatur ulang counter).
 - counter-increment (berfungsi untuk menambahkan penghitung).
