@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Math.random()</h2>
+
+<p>setiap kamu klik tombol maka akan keuar angka-angka yang random</p>
+
+<button onclick="document.getElementById('demo').innerHTML = getRndInteger(0,10)">klik disini!!</button>
+
+<p id="demo"></p>
+
+<script>
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+</script>
+
+</body>
+</html>

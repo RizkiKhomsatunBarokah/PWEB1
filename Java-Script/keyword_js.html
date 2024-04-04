@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript <i>this</i> Keyword</h1>
+<p>contoh yang akan diberikan dengan<strong> javascript keyword </strong>yaitu: </p>
+
+<p id="demo"></p>
+
+<script>
+const person1 = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+const person2 = {
+  firstName:"Riris",
+  lastName: "Khomsatun",
+}
+
+let x = person1.fullName.call(person2); 
+document.getElementById("demo").innerHTML = x; 
+</script>
+
+</body>
+</html>

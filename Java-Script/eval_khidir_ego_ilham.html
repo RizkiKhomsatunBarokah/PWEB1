@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challange JS</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th {
+        background-color: lightgray;
+      }
+      tr:nth-child(even) {
+        background-color: lightgray;
+      }
+      table tr:hover {
+        background-color: gray;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+      img {
+        width: 200px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>JavaScript Arithmetic</h1>
+      <table cellpadding="10" border="1">
+        <tr>
+          <th>Variabel</th>
+          <th>Nilai</th>
+          <th rowspan="5">
+            <img
+              id="gambarHTML"
+              src="https://www.techfor.id/wp-content/uploads/2019/12/html.png"
+            />
+          </th>
+        </tr>
+        <tr>
+          <td>a</td>
+          <td id="a">5</td>
+        </tr>
+        <tr>
+          <td>b</td>
+          <td id="b">2</td>
+        </tr>
+        <tr>
+          <td>c</td>
+          <td id="c">1</td>
+        </tr>
+        <tr>
+          <td>Hasil</td>
+          <td
+            id="hasil"
+            onmouseover="tampilHasil()"
+            onmouseleave="hapusHasil()"
+          ></td>
+        </tr>
+      </table>
+
+      <br /><br />
+      <button onclick="ubahNilai()">Ubah Nilai</button>
+    </div>
+
+    <script>
+      function hitung(a, b, c) {
+        return a + b - c;
+      }
+
+      function tampilHasil() {
+        let a = parseInt(document.getElementById("a").innerHTML);
+        let b = parseInt(document.getElementById("b").innerHTML);
+        let c = parseInt(document.getElementById("c").innerHTML);
+
+        let hasil = hitung(a, b, c);
+        document.getElementById("hasil").innerHTML = hasil;
+      }
+
+      function hapusHasil() {
+        document.getElementById("hasil").innerHTML = "";
+        // hasil.innerHTML ="";
+      }
+
+      const ubahNilai = () => {
+        const promptA = prompt("Masukan nilai a");
+        const promptB = prompt("Masukan nilai b");
+        const promptC = prompt("Masukan nilai C");
+
+        document.getElementById("a").innerHTML = promptA;
+        document.getElementById("b").innerHTML = promptB;
+        document.getElementById("c").innerHTML = promptC;
+
+        tampilHasil();
+
+        document.getElementById("gambarHTML").src =
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png";
+      };
+    </script>
+  </body>
+</html>

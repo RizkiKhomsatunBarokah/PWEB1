@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Map Objects</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create a Map
+const nilai = new Map([
+  ["Riris", 90],
+  ["Rina", 80],
+  ["alis", 87]
+]);
+
+let text = "";
+for (const x of nilai.entries()) {
+  text += x + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Loops</h2>
+
+<p>Loop yang akan melewatkan nomor 3.</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>

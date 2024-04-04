@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>event dalam JavaScript</h1>
+<h2>Menggunakan Atribut Onclick</h2>
+
+<p>Klik tombol untuk mengetahui jam :</p>
+<button onclick="displayDate()">klik!!!</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html>

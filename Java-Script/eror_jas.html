@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Errors</h1>
+<p>Eror dalam bahasa pemrograman JavaScript</p>
+<p id="demo">
+
+<script>
+let num = 1;
+try {
+  num.toPrecision(500);
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.name;
+}
+</script>
+
+</body>
+</html>

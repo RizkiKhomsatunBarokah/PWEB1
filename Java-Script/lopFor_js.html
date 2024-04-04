@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>For Loop</h2>
+<p>For Loop yang akan ditampilkan menggunakan bahasa pemrograman JavaScript</p>
+
+<p id="demo"></p>
+
+<script>
+const name = ["Riris", "Mila", "Esna", "Ghina"];
+
+let i = 0;
+let len = name.length;
+let text = "";
+
+for (; i < len; ) {
+  text += name[i] + "<br>";
+  i++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>

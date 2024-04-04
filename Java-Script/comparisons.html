@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Comparisons</h2>
+
+<p>Masukan umur anda dan klik tombol dibawah!</p>
+
+<input id="age" value="18" />
+
+<button onclick="myFunction()">klik disini!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let voteable;
+  let age = Number(document.getElementById("age").value);
+  if (isNaN(age)) {
+    voteable = "Input is not a number";
+  } else {
+    voteable = (age < 18) ? "Too young" : "Old enough";
+  }
+  document.getElementById("demo").innerHTML = voteable + " to vote";
+}
+</script>
+
+</body>
+</html>

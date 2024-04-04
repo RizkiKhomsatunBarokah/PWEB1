@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>buatlah Object dari JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+let text = '{"employees":[' +
+'{"firstName":"Rizki","lastName":"Khomsatun" },' +
+'{"firstName":"Rina","lastName":"nur" },' +
+'{"firstName":"Esneni","lastName":"Wulan" }]}';
+
+const obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.employees[0].firstName + " " + obj.employees[0].lastName;
+</script>
+
+</body>
+</html>
