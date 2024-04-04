@@ -7,23 +7,23 @@ NPM : 230102022
 
 ## HTML
 HTML adalah sebuah bahasa pemrograman standar yang sering digunakan untuk membuat halaman website yang dapat diakses dengan menggunakan internet. HTML sebuah singkatan dari Hyper Text Makrup Language yang menjelaskan tentang struktur halaman web. Dalam elemen HTML kita tau bagian-bagian seperti heading (judul), paragraf (p), dan masih banyak elemen-elemen yang ada dalam HTML
-1. <!DOCTYPE html> menjelaskan bahsa dokumen ini merupakan dokumen HTML5
-2. akar halaman dari html yaitu dengan menggunakan elemen <html>
-3. informasi meta tentang halaman HTML dengan menggunakan elemen <head>
-4. untuk menentukan judul halaman dapat menggunakan element <title>
-5. wadah dokumen atau sebagai tempat untuk semua elemen-elemen dapat di masukkan kedalam <body>
-6. elemen yang mendefinisikan sebuah judul yaitu dengan h1 selain menggunakan h2 dapat menggunakan <h2> <h3> <h4> <h5> <h6>
-7. elemen yang berfungsi untuk mendefinisikan sebuah paragraf maka dapat menggunakan <p>
+1. !DOCTYPE html menjelaskan bahwa dokumen ini merupakan dokumen HTML5
+2. akar halaman dari html yaitu dengan menggunakan elemen html
+3. informasi meta tentang halaman HTML dengan menggunakan elemen head
+4. untuk menentukan judul halaman dapat menggunakan element title
+5. wadah dokumen atau sebagai tempat untuk semua elemen-elemen dapat di masukkan kedalam body
+6. elemen yang mendefinisikan sebuah judul yaitu dengan h1 selain menggunakan h2 dapat menggunakan h2 h3 h4 h5 h6
+7. elemen yang berfungsi untuk mendefinisikan sebuah paragraf maka dapat menggunakan p
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(431).png?raw=true)
-8. kita dapat menambahkan sebuah link ke dalam bagian html dengan menggunakan tag <a>.
-9. kita dapat menambahkan gambar secara online maupun offline dengan menggunakan sebuah tag HTML <img> dengan tag <src> sebagai sumber file serta <alt> untuk menuliskan teks alternatif serta di ikuti dengan width dan height.
-10. Dalam HTML kita dapat memberikan jeda baris dengan menggunakan sebuah tag yang ada, yaitu dengan menggunakan tag <br>.
-11. Kita dapat memodifikasi semua tampilan web HTML dengan menggunakan sebuah tag <style></style> dengan menggunakan tag ini kita dapat mengubah seperti background warna, warna font, ukuran teks, jenis font yang ingin kita gunakan. 
-- untuk mengubah background warna kita menggunakan tag <background-color>
-- untuk mengubah warna teks kita menggunakan tag <color>
-- untuk mengubah ukuran font,kita menggunakan tag <font-size>
-- untuk mengubah jenis font, kita menggunakan tag <font-family>
-- untuk meratakan tulisan kita, dapat menggunakan tag <text-align>
+8. kita dapat menambahkan sebuah link ke dalam bagian html dengan menggunakan tag a
+9. kita dapat menambahkan gambar secara online maupun offline dengan menggunakan sebuah tag HTML img dengan tag src sebagai sumber file serta alt untuk menuliskan teks alternatif serta di ikuti dengan width dan height.
+10. Dalam HTML kita dapat memberikan jeda baris dengan menggunakan sebuah tag yang ada, yaitu dengan menggunakan tag br
+11. Kita dapat memodifikasi semua tampilan web HTML dengan menggunakan sebuah tag style dengan menggunakan tag ini kita dapat mengubah seperti background warna, warna font, ukuran teks, jenis font yang ingin kita gunakan. 
+- untuk mengubah background warna kita menggunakan tag background-color
+- untuk mengubah warna teks kita menggunakan tag color
+- untuk mengubah ukuran font,kita menggunakan tag font-size
+- untuk mengubah jenis font, kita menggunakan tag font-family
+- untuk meratakan tulisan kita, dapat menggunakan tag text-align
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(432).png?raw=true)
 12. Di dalam suatu HTML kita juga bisa mengatur teks yang akan ditampilkan sesuai dengan yang kita inginkan. 
 - untuk teks yang kita tebalkan, dapat menggunakan tag b
@@ -31,13 +31,13 @@ HTML adalah sebuah bahasa pemrograman standar yang sering digunakan untuk membua
 - untuk membuat style teks yang miring,kita bisa menggunakan tag i
 13. dalam HTML kita juga bekerja sama dengan CSS untuk dapat mempermudah dalam pembuatan web. CSS dapat ditambahkan kedalam HTML dengan menggunakan 3 cara, yaitu dengan:
 - style atribut di dalam elemen HTML (inline)
-- <style></style> di dalam <head> termasuk ke dalam (internal)
-- dengan menggunakan <link> untuk menautkan file CSS eksternal (eksternal).
+- style di dalam head termasuk ke dalam (internal)
+- dengan menggunakan tag link untuk menautkan file CSS eksternal (eksternal).
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(433).png?raw=true)
 14. Dalam HTML kta juga bisa membuat sebuah tabel dengan perintah tag table dengan tr sebagai baris dan td sebagai data tabel serta tag th sebagai header dari tabel tersebut. kita juga bisa membuat border tabel dengan menggunakan tag border serta menyatukan beberapa baris atau kolom dengan menggunakan tag colspan atau rowspan
 15. kita dapat membuat list dengan menggunakan tag HTML. tag list dalam sebuah HTML di bagi menjadi 2, yaitu list ordered dan list unordered. 
-- list unordered yaitu list yang tidak berurutan, dapat menggunakan tag <li>
-- List ordered, yaitu List yang berututan, untuk menuliskan sesuatu dengan ordered makan bisa menggunakan tag <ol> di ikuti dengan <li> 
+- list unordered yaitu list yang tidak berurutan, dapat menggunakan tag li
+- List ordered, yaitu List yang berututan, untuk menuliskan sesuatu dengan ordered makan bisa menggunakan tag ol di ikuti dengan li
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(434).png?raw=true)
 16. atribut Class juga digunakan dalam bahasa pemrograman HTML untuk menunjuk ke nama dalam style sheet. 
 - atribut id dapat menentukan id unik untuk elemen HTML yang berfungsi untuk menunjuk ke gaya tertentu dalam sebuah style sheet. 
