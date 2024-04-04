@@ -12,7 +12,7 @@ HTML adalah sebuah bahasa pemrograman standar yang sering digunakan untuk membua
 3. informasi meta tentang halaman HTML dengan menggunakan elemen <head>
 4. untuk menentukan judul halaman dapat menggunakan element <title>
 5. wadah dokumen atau sebagai tempat untuk semua elemen-elemen dapat di masukkan kedalam <body>
-6. elemen yang mendefinisikan sebuah judul yaitu dengan <h1> selain menggunakan <h1> dapat menggunakan <h2> <h3> <h4> <h5> <h6>
+6. elemen yang mendefinisikan sebuah judul yaitu dengan h1 selain menggunakan h2 dapat menggunakan <h2> <h3> <h4> <h5> <h6>
 7. elemen yang berfungsi untuk mendefinisikan sebuah paragraf maka dapat menggunakan <p>
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(431).png?raw=true)
 8. kita dapat menambahkan sebuah link ke dalam bagian html dengan menggunakan tag <a>.
