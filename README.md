@@ -36,7 +36,7 @@ contoh: <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 - <style></style> di dalam <head> termasuk ke dalam (internal)
 - dengan menggunakan <link> untuk menautkan file CSS eksternal (eksternal).
 ![alt text](https://github.com/RizkiKhomsatunBarokah/PWEB1/blob/main/SS%20image/Screenshot%20(433).png?raw=true)
-14. Dalam HTML kta juga bisa membuat sebuah tabel dengan perintah tag <table> dengan <tr> sebagai baris dan <td> sebagai data tabel serta tag <th> sebagai header dari tabel tersebut. kita juga bisa membuat border tabel dengan menggunakan tag <border> serta menyatukan beberapa baris atau kolom dengan menggunakan tag <colspan> dan <rowspan>. 
+14. Dalam HTML kta juga bisa membuat sebuah tabel dengan perintah tag <table> dengan <tr> sebagai baris dan <td> sebagai data tabel serta tag <th> sebagai header dari tabel tersebut. kita juga bisa membuat border tabel dengan menggunakan tag <border> serta menyatukan beberapa baris atau kolom dengan menggunakan tag colspan atau rowspan
 15. kita dapat membuat list dengan menggunakan tag HTML. tag list dalam sebuah HTML di bagi menjadi 2, yaitu list ordered dan list unordered. 
 - list unordered yaitu list yang tidak berurutan, dapat menggunakan tag <li>
 - List ordered, yaitu List yang berututan, untuk menuliskan sesuatu dengan ordered makan bisa menggunakan tag <ol> di ikuti dengan <li> 
